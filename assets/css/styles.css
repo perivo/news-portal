@@ -1,0 +1,66 @@
+/* assets/css/styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light mode background */
+    color: #333; /* Light mode text color */
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 200px; /* Set image height for uniformity */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+}
+
+body.dark-mode .navbar {
+    background-color: #333; /* Dark navbar */
+}
+
+body.dark-mode footer {
+    background-color: #333; /* Dark footer */
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
